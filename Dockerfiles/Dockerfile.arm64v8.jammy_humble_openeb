@@ -1,0 +1,3 @@
+FROM berndpfrommer/arm64v8_jammy_humble_openeb
+COPY ./run-on-arch-install.sh /root/run-on-arch-install.sh
+RUN chmod +x /root/run-on-arch-install.sh && /root/run-on-arch-install.sh
